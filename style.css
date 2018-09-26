@@ -1,6 +1,7 @@
 
 .nav-header {
         background: #4aaaa5;
+        color:white;
         font-size: 30px;
         font-weight: 700;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,6 +10,7 @@
         margin-right:10px;
         width:345px;
         text-align:center;
+        margin-left:180px;
 }
 .nav-item {
     border-left: 1px solid #efefef;
@@ -20,6 +22,11 @@
     border-bottom: 2px solid #ccc;
     margin-left: 10px;
 }
+
+ul .navlinks {
+    margin-top: 20px;
+}
+
 footer {
     padding: 30px 0;
     clear: both;
@@ -49,5 +56,13 @@ footer {
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
+}
+
+@media screen and (max-width:640px){
+.nav-header{
+    margin-left:0px;
+    width:100%;
+    color:white;
+    margin-right:0px;
 }
 

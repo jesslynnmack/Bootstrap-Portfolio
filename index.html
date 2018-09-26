@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <title>Bootstrap Portfolio </title>
@@ -13,46 +16,55 @@
 
 <body background="images/concrete_seamless.png">
     <!--Navigation-->
-    <nav style=padding:0;margin-top:5px; class="navbar navbar-expand-lg navbar-light bg-light">
-        <a style="margin-left:180px;color:white;" class="nav-header">Jessica McCormack</a>
+    <nav style=padding:0px;margin-top:5px; class="navbar navbar-expand-lg navbar-light bg-light">
+        <a style="color:white;" class="nav-header">Jessica McCormack</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul style=margin-right:50px; class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href=portfolio.html>Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul style=margin-right:50px; class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=portfolio.html>Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
     <!--Card-->
-    <div class="card" style=width:960px;margin-left:175px;margin-top:50px>
-        <div class="card-body">
-            <h2 style="color:#4aaaa5;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 700">About Me</h2>
-            <hr>
-            <div class="clearfix">
-                <div style=float:left>
-                    <img src="images/Linkedin.JPG" alt="Jessica McCormack" style="height:200px;margin-right:50px;">
+    <div class="container">
+        <div class="card" style=margin-top:50px>
+            <div class="row">
+                <div class="col-sm-12, col-md-12, col-lg-12">
+                    <h2 style="margin-left:20px;margin-top:20px;color:#4aaaa5;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 700">About
+                        Me
+                    </h2>
+                    <hr>
                 </div>
-                <div style="color:#777;">
-                    <p style=font-size:18px;> Hello! My name is Jessica McCormack. I am from Atlanta, GA. I graduated from
-                        Auburn University summer '17 with a Bachelors Degree in Supply Chain Management. </p>
-                    <p style=font-size:18px;> I spend most my free time adventuring around with my 2 year old "beaglador
-                        mix" puppy named Oliver. If I'm not adventuring with Oliver I'm eating at my favorite resurant bartaco
-                        with friends and family.</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-12, col-md-4">
+                    <img src="images/Linkedin.JPG" alt="Jessica McCormack" style="height:200px;margin-right:50px;margin-left:20px;">
+                </div>
+                <div class="col-sm-12">
+                    <div style="color:#777;margin-left:20px;margin-top:10px;">
+                        <p style=font-size:18px;> Hello! My name is Jessica McCormack. I am from Atlanta, GA. I graduated
+                            from Auburn University summer '17 with a Bachelors Degree in Supply Chain Management. </p>
+                        <p style=font-size:18px;> I spend most my free time adventuring around with my 2 year old "beaglador
+                            mix" puppy named Oliver. If I'm not adventuring with Oliver I'm eating at my favorite resurant
+                            bartaco with friends and family.</p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
     <footer>
         <div class="f1con">
             Copyright &copy;
